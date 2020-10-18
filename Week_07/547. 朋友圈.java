@@ -30,8 +30,6 @@ class Solution {
         if(ancestors[index]!=index){
             ancestors[index] = find(ancestors[index]);
         }
-        return ancestors[index];
-        Deque<String> s = new ArrayDeque<>();
-        
+        return ancestors[index];        
     }
 }
